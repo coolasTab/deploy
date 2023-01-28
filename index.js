@@ -4,7 +4,7 @@ const app = express();
 const port = 9000;
 
 app.use("/", (req,res) => {
-    res.json({message : "Hello from express app"})
+    res.json({message : "Hello from express nk"})
 })
 
 app.use("/api/nik", (req,res) => {
